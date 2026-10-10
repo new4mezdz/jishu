@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Local photos, annotations, exports, and model artifacts
+data/
+datasets/
+uploads/
+exports/
+runs/
+artifacts/
+models/weights/
+*.pt
+*.pth
+*.onnx
+
+# Tests and test outputs belong outside this project
+tests/
+test-results/
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+*.log
+
+# Operating system files
+Thumbs.db
+.DS_Store
